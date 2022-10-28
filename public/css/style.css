@@ -1,0 +1,131 @@
+body {
+  background: white;
+}
+.active {
+  border-bottom: 2px solid white;
+}
+.hover{
+  transition: all 200ms;
+}
+
+.hover:hover {
+  border-bottom: 2px solid white;
+}
+.b {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  border-radius: 50px;
+}
+.ba {
+  margin-right: 100px;
+}
+.hover-w {
+  transition: all 400ms;
+}
+.hover-w .mas{
+  display: none;
+}
+.hover-w:hover .mas{
+  display: block;
+  font-weight: bold;
+}
+.hover-w:hover img{
+  opacity: 75%;
+}
+
+.hover-whatsapp{
+  position: fixed;
+  right: 0;
+  top: 30%;
+  background-color: green;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  transition: all 200ms;
+  z-index: 100;
+}
+.hover-whatsapp:hover {
+  padding-right: 30px;
+}
+.hover-facebook {
+  position: fixed;
+  right: 0;
+  top: 38%;
+  background-color: blue;
+  padding: 13px;
+  padding-left: 18px;
+  padding-right: 20px;
+  color: white;
+  transition: all 200ms;
+  z-index: 100;
+}
+.hover-facebook:hover {
+  padding-right: 30px;
+}
+.hover-instagram {
+  position: fixed;
+  right: 0;
+  top: 46.2%;
+  background-color: red;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  transition: all 200ms;
+  z-index: 100;
+}
+.hover-instagram:hover {
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .b {
+    background: transparent;
+    border: none;
+    border-radius: 0%;
+  }
+  .bgg {
+    background: gray;
+  }
+  .text-item {
+    color: black;
+  }
+  .active {
+    margin-top: 5px;
+    border: none;
+    background: #212529;
+    border-radius: 50px;
+  }
+  .hover:hover {
+    border-radius: 50px;
+    margin-top: 5px;
+    border: none;
+    background: #212529;
+  }
+  .anti-margin {
+    margin: 0;
+    margin-right: 0%;
+  }
+  .hover2:hover {
+    border-radius: 50px;
+    margin-top: 5px;
+    border: none;
+    background: #212529;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .kiri {
+    min-width: 100%;
+  }
+  .kanan {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .ful {
+    min-width: 100%;
+  }
+}
